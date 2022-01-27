@@ -9,17 +9,7 @@ from mask_rcnn import *
 rs= RealsenseCamera()
 mrcnn=MaskRCNN()
 
-#You might need to adjust path for mask mrcnn.py folder for that change line 10, line 11, and line 25 
-
-#You might need to do 
-#pip install opencv-python
-#pip install pyrealsense2
-#I dont know just have it just incase
-
-
-#below is the link for the program I used
-
-#https://pysource.com/2021/06/24/identify-and-measure-precisely-objects-distance-with-deep-learning-and-intel-realsense/
+#You might need to adjust path for mask mrcnn
 
 while True:
     #Get info in real time
